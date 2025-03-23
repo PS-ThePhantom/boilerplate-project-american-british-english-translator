@@ -1,5 +1,6 @@
 'use strict';
 
+const { text } = require('body-parser');
 const Translator = require('../components/translator.js');
 
 module.exports = function (app) {
@@ -8,6 +9,6 @@ module.exports = function (app) {
 
   app.route('/api/translate')
     .post((req, res) => {
-      
+      console.log(req.body);
     });
 };
