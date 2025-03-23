@@ -10,7 +10,7 @@ suite('Unit Tests', () => {
         const sentence = 'Mangoes are my favorite fruit.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'Mangoes are my favourite fruit.');
     });
 
@@ -18,7 +18,7 @@ suite('Unit Tests', () => {
         const sentence = 'I ate yogurt for breakfast.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'I ate yoghurt for breakfast.');
     });
 
@@ -26,7 +26,7 @@ suite('Unit Tests', () => {
         const sentence = "We had a party at my friend's condo.";
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, "We had a party at my friend's flat.");
     });
 
@@ -34,7 +34,7 @@ suite('Unit Tests', () => {
         const sentence = 'Can you toss this in the trashcan for me?';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'Can you toss this in the bin for me?');
     });
 
@@ -42,7 +42,7 @@ suite('Unit Tests', () => {
         const sentence = 'The parking lot was full.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'The car park was full.');
     });
 
@@ -50,7 +50,7 @@ suite('Unit Tests', () => {
         const sentence = 'Like a high tech Rube Goldberg machine.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'Like a high tech Heath Robinson device.');
     });
 
@@ -58,7 +58,7 @@ suite('Unit Tests', () => {
         const sentence = 'To play hooky means to skip class or work.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'To bunk off means to skip class or work.');
     });
 
@@ -66,7 +66,7 @@ suite('Unit Tests', () => {
         const sentence = 'No Mr. Bond, I expect you to die.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'No Mr Bond, I expect you to die.');
     });
 
@@ -74,7 +74,7 @@ suite('Unit Tests', () => {
         const sentence = 'Dr. Grosh will see you now.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'Dr Grosh will see you now.');
     });
 
@@ -82,7 +82,7 @@ suite('Unit Tests', () => {
         const sentence = 'Lunch is at 12:15 today.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'Lunch is at 12.15 today.');
     });
 
@@ -90,7 +90,7 @@ suite('Unit Tests', () => {
         const sentence = 'We watched the footie match for a while.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'We watched the soccer match for a while.');
     });
 
@@ -98,7 +98,7 @@ suite('Unit Tests', () => {
         const sentence = 'Paracetamol takes up to an hour to work.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'Tylenol takes up to an hour to work.');
     });
 
@@ -106,7 +106,7 @@ suite('Unit Tests', () => {
         const sentence = 'First, caramelise the onions.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'First, caramelize the onions.');
     });
 
@@ -114,7 +114,7 @@ suite('Unit Tests', () => {
         const sentence = 'I spent the bank holiday at the funfair.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'I spent the public holiday at the carnival.');
     });
 
@@ -122,7 +122,7 @@ suite('Unit Tests', () => {
         const sentence = 'I had a bicky then went to the chippy.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'I had a cookie then went to the fish-and-chip shop.');
     });
 
@@ -130,7 +130,7 @@ suite('Unit Tests', () => {
         const sentence = "I've just got bits and bobs in my bum bag.";
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, "I've just got odds and ends in my fanny pack.");
     });
 
@@ -138,7 +138,7 @@ suite('Unit Tests', () => {
         const sentence = 'The car boot sale at Boxted Airfield was called off.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'The swap meet at Boxted Airfield was called off.');
     });
 
@@ -146,7 +146,7 @@ suite('Unit Tests', () => {
         const sentence = 'Have you met Mrs Kalyani?';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'Have you met Mrs. Kalyani?');
     });
 
@@ -154,7 +154,7 @@ suite('Unit Tests', () => {
         const sentence = "Prof Joyner of King's College, London.";
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, "Prof. Joyner of King's College, London.");
     });
 
@@ -162,7 +162,7 @@ suite('Unit Tests', () => {
         const sentence = 'Tea time is usually around 4 or 4.30.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
         assert.equal(translation.translatedSentence, 'Tea time is usually around 4 or 4:30.');
     });
 
@@ -170,31 +170,31 @@ suite('Unit Tests', () => {
         const sentence = 'Mangoes are my favorite fruit.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
-        assert.equal(translation.highlitedSentence, 'Mangoes are my <span class="highlight">favourite</span> fruit.');
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
+        assert.equal(translation.highlightedSentence, 'Mangoes are my <span class="highlight">favourite</span> fruit.');
     });
 
     test('Highlight translation in I ate yogurt for breakfast.', () => {
         const sentence = 'I ate yogurt for breakfast.';
         const translation = translator.translateToBritish(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
-        assert.equal(translation.highlitedSentence, 'I ate <span class="highlight">yoghurt</span> for breakfast.');
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
+        assert.equal(translation.highlightedSentence, 'I ate <span class="highlight">yoghurt</span> for breakfast.');
     });
 
     test('Highlight translation in We watched the footie match for a while.', () => {
         const sentence = 'We watched the footie match for a while.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
-        assert.equal(translation.highlitedSentence, 'We watched the <span class="highlight">soccer</span> match for a while.');
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
+        assert.equal(translation.highlightedSentence, 'We watched the <span class="highlight">soccer</span> match for a while.');
     });
 
     test('Highlight translation in Paracetamol takes up to an hour to work.', () => {
         const sentence = 'Paracetamol takes up to an hour to work.';
         const translation = translator.translateToAmerican(sentence);
 
-        assert.notEqual(translation.translatedSentence, translation.highlitedSentence);
-        assert.equal(translation.highlitedSentence, '<span class="highlight">Tylenol</span> takes up to an hour to work.');
+        assert.notEqual(translation.translatedSentence, translation.highlightedSentence);
+        assert.equal(translation.highlightedSentence, '<span class="highlight">Tylenol</span> takes up to an hour to work.');
     });
 });
